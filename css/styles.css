@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #191c32;
+
+}
+
+.wrapper{ 
+  color: #fff;
+}
+
+.navbar {
+  padding: 2em;
+}
+
+button.navbar-toggler{
+  background-color: aqua;
+}
+
+span.navbar-toggler-icon{
+  color:#191c32;
+}
+
+
+.brand span{
+  color: aqua;
+}
+
+.menu {
+  width: 50%;
+  justify-content: space-around;
+  margin-left: 50%;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active {
+  color: aqua;
+}
+
+.menu a:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4s;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 100vh;
+}
+
+.main h3 span{
+  color: aqua;
+
+}
+
+.cv {
+  padding: 10px 20px;
+  background-color: #e9eaf1;
+  color: #191c32;
+  text-decoration: none;
+}
+
+
+
+
+.bg:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4s;
+}
+
+.cv:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4s;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+@media (max-width: 990px) {
+  .menu{
+    margin-left: -45px;
+  }
+  .brand h2{
+    display: none;
+
+  }
+  .responsive{
+    font-size: 45px;
+  }
+  .lead{
+    font-size: 22px;
+  }
+  
+  .justify{
+    font-size: 17px;
+  }
+
+  .margin{
+    margin-top: 20px;
+  }
+  }
